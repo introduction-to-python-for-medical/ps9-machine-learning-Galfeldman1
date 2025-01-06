@@ -1,7 +1,7 @@
 import pandas as pd
 df = pd.read_csv('/content/parkinsons.csv')
 df.head()
-features = ['HNR', 'RPDE','DFA','PPE']
+features = ['HNR', 'RPDE']
 target = 'status'
 X = df[features]
 y = df[target]
