@@ -1,2 +1,2 @@
-path: "my_model.joblib
-features: ['HNR', 'RPDE','DFA','PPE']
+path: "my_model(3).joblib
+features: ['HNR', 'RPDE']
