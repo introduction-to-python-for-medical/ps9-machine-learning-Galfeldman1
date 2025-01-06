@@ -17,6 +17,5 @@ y_pred = model.predict(X_val)
 from sklearn.metrics import accuracy_score
 accuracy = accuracy_score(y_val, y_pred)
 print(f"Accuracy: {accuracy}")
-import joblib
-joblib.dump(model, 'my_model.joblib')
+
 
