@@ -3,7 +3,11 @@ from sklearn.preprocessing import MinMaxScaler
 from sklearn.model_selection import train_test_split
 from sklearn.svm import SVC
 from sklearn.metrics import accuracy_score
+%load_ext autoreload
+%autoreload 2
 
+# Download the data from your GitHub repository
+!wget https://raw.githubusercontent.com/yotam-biu/ps9/main/parkinsons.csv -O /content/parkinsons.csv
 # Load dataset
 df = pd.read_csv('/content/parkinsons.csv')
 features = ['DFA', 'PPE']
